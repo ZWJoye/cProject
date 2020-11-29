@@ -3,8 +3,8 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="../style/css/index5.css">
-    <script src="../style/js/new.js" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" type="text/css" href="style/css/index5.css">
+    <script src="style/js/new.js" type="text/javascript" charset="UTF-8"></script>
 </head>
 <body>
 <div id="main">
@@ -33,14 +33,14 @@
                     <a href="#">课程体系</a>
                     <a href="#">账号管理</a>
                 </div>
-                <a href="tiku.jsp" onclick="questionBankManagement()">
+                <a href="login&register/tiku.jsp" onclick="questionBankManagement()">
                     题库管理
                 </a>
                 <div id="pull-down-menu2">
                     <a href="#">增删题目</a>
                     <a href="#">修改题目</a>
                 </div>
-                <a href="shuju.jsp" onclick="dataAnalysis()">
+                <a href="login&register/shuju.jsp" onclick="dataAnalysis()">
                     <span>
 							数据分析
                     </span>
@@ -49,10 +49,10 @@
                     <a href="#">自主学习情况</a>
                     <a href="#">错题分布情况</a>
                 </div>
-                <a href="shoufa.jsp">
+                <a href="login&register/shoufa.jsp">
                     收发邮件
                 </a>
-                <a href="gcrzzlhz.jsp">
+                <a href="login&register/gcrzzlhz.jsp">
                     工程认证资料汇总
                 </a>
             </div>

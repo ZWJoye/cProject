@@ -4,10 +4,6 @@
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css" href="../style/css/index5.css">
-    <link rel="stylesheet" href="../style/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../style/css/bootstrap-theme.min.css" media="screen">
-    <script src="../style/js/jquery-3.3.1.min.js"></script>
-    <script src="../style/js/bootstrap.min.js"></script>
     <script src="../style/js/new.js" type="text/javascript" charset="UTF-8"></script>
 </head>
 <body>

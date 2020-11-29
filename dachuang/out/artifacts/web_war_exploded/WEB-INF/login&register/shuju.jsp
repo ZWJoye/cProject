@@ -24,7 +24,7 @@
 						个人中心
 					</span>
             <div class="nav_list">
-                <a href="index.jsp" onclick="personalCenter()">
+                <a href="../index.jsp" onclick="personalCenter()">
                     个人中心
                 </a>
                 <div id="pull-down-menu1">
