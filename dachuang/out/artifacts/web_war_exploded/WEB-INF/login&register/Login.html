@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>登录注册</title>
+<link rel="stylesheet" type="text/css" href="../style/css/normalize.css" />
+    <link rel="stylesheet" href="../style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/css/bootstrap-theme.min.css" media="screen">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="../style/js/jquery-3.3.1.min.js"></script>
+    <script src="../style/js/bootstrap.min.js"></script>
+<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+</head>
+<body>
+<p class="center" style="display:block;text-align:center;">欢迎来到登录界面</p>
+<div id="wrapper" class="login-page">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#StLogin" class="changeTab" data-toggle="tab">
+                学生登录</a></li>
+            <li><a href="#TeLogin" class="changeTab" data-toggle="tab">老师登录</a></li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="StLogin">
+                <form id="St_login_form" class="form">
+                    <input type="text" placeholder="用户名" id="St_user_name"/>
+                    <input type="password" placeholder="密码" id="St_password"/>
+                    <!--
+                        <input type="text" name="verifyCode" class="form-control" id="St_verifyCode1"
+                               placeholder="验证码"
+                               style="width: 120px;"/>
+                        <a href="javascript:refreshCode()">
+                            <img src="${ctp}/login/checkCode" class="verifyCodeImg" alt="点击刷新"/>
+                        </a>
+                        -->
+                </form>
+            </div>
+            <div class="tab-pane fade in active" id="TeLogin">
+                <form id="Te_login_form" class="form">
+                    <input type="text" placeholder="用户名" id="Te_user_name"/>
+                    <input type="password" placeholder="密码" id="Te_password"/>
+                    <!--
+                    <div class="col-md-6">
+                        <input type="text" name="verifyCode" class="col-md-3" id="Te_verifyCode1"
+                               placeholder="验证码"
+                               style="width: 120px;"/>
+                        <a href="javascript:refreshCode()">
+                            <img src="${ctp}/login/checkCode" class="verifyCodeImg col-md-3" alt="点击刷新"/>
+                        </a>
+                    </div>
+                    -->
+                </form>
+            </div>
+        </div>
+ </div>
+</body>
+</html>
