@@ -1,0 +1,94 @@
+/*课程分析*/
+.kbox_2{
+    position:absolute;
+    left:800px;
+    top:80px;
+    width:600px;
+    height:600px;
+    background-color: lightgrey ;
+}
+.tbox_2{
+    position:absolute;
+    top:80px;
+    left: 250px;
+    width:1200px;
+    height:600px;
+    background-color: lightgrey ;
+}  /*推荐计划*/
+.kcircle {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+#kcircle1 {
+    width: 450px;
+    height: 450px;
+    background: antiquewhite;
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    display: block;
+}
+.kcontent{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    position:absolute;
+    left:60px;
+    top:200px;
+}
+a{
+    text-decoration: none;
+}
+/*老师*/
+/*自主学习情况*/
+.T_circle {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+#T_circle1 {
+    width: 450px;
+    height: 450px;
+    background: antiquewhite;
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    display: block;
+}
+#T_circle2 {
+    width: 450px;
+    height: 450px;
+    background: antiquewhite;
+    position: absolute;
+    top: 13%;
+    left: 52%;
+    display: block;
+}
+.T_content1{
+    font-size: 30px;
+    color: WHITE;
+    font-weight: bolder;
+    position:absolute;
+    left:60px;
+    top:200px;
+}
+.T_content2{
+    font-size: 25px;
+    color: WHITE;
+    font-weight: bolder;
+    position:absolute;
+    left:40px;
+    top:200px;
+}
+/*学生名单下载*/
+.download1{
+    margin-top: 500px;
+    margin-left: 150px;
+}
+.download2{
+    margin-top: 500px;
+    margin-left: 150px;
+}
+/*错题分布情况*/
+
