@@ -52,14 +52,6 @@
             </div>
         </div>
     </div>
-    <iframe src=""></iframe>
-    <script>
-        $("a").click(function(){
-            var src = $(this).attr("name");
-            $("iframe").attr("src",src);
-        });
-    </script>
 </div>
 </body>
-
 </html>
