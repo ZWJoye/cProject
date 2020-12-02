@@ -19,26 +19,26 @@
 						个人中心
 					</span>
                 <div class="nav_list">
-                    <a href="#" onclick="personalCenter()">
+                    <a id="index1" href="#" onclick="personalCenter(this)">
                         个人中心
                     </a>
-                    <div id="pull-down-menu1">
+                    <div id="pull-down-menu1" style="height: 0">
                         <a href="../teacher/index.html" target="mainFrame">个人信息</a>
                         <a href="#">培养目标</a>
                         <a href="#">课程体系</a>
                         <a href="#">账号管理</a>
                     </div>
-                    <a id="select" href="#" onclick="questionBankManagement()">
+                    <a id="index2" href="#" onclick="questionBankManagement(this)">
                         题库管理
                     </a>
-                    <div id="pull-down-menu2">
+                    <div id="pull-down-menu2" style="height: 0">
                         <a href="#">增删题目</a>
                         <a href="#">修改题目</a>
                     </div>
-                    <a href="#" onclick="dataAnalysis()">
+                    <a id="index3" href="#" onclick="dataAnalysis(this)">
                         数据分析
                     </a>
-                    <div id="pull-down-menu3">
+                    <div id="pull-down-menu3" style="height: 0">
                         <a href="#">自主学习情况</a>
                         <a href="#">错题分布情况</a>
                     </div>
