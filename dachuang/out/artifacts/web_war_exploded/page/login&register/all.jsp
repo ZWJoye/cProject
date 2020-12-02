@@ -9,14 +9,17 @@
     <script src="../style/js/jquery-3.3.1.min.js"></script>
     <script src="../style/js/bootstrap.min.js"></script>
 </head>
-<frameset rows="98,*,5" frameborder="no">
-    <frame src="top.jsp" name="topFrame" id="topFrame"/>
-    <frameset cols="168,*"  frameborder="no">
-        <frame src="left.jsp"name="leftFrame" id="leftFrame" />
-        <frame src="Login.html" name="mainFrame" id="mainFrame" scrolling="yes"/>
-    </frameset>
-    <frame src="down.jsp" name="bottomFrame"id="bottomFrame" />
-<body>
-</body>
+<frameset rows="100%">
+    <frameset rows="20%,80%" frameborder="no">
+        <frame src="top.jsp" name="topFrame" id="topFrame"/>
+        <frameset cols="15%,85%"  frameborder="no">
+            <frame src="left.jsp"name="leftFrame" id="leftFrame"  style="border: solid"/>
+            <frame src="Login.html" name="mainFrame" id="mainFrame" scrolling="yes"  style="border: solid"/>
+        </frameset>
+</frameset>
+
+    <noframes>
+        <body>您的浏览器无法处理此框架</body>
+    </noframes>
 </frameset>
 </html>
